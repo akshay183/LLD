@@ -16,6 +16,7 @@ public class ObserverDesignManager {
         System.out.println();
         iphoneStocks.setData(-1);
         System.out.println();
+        iphoneStocks.remove(phoneObserver1);
         iphoneStocks.setData(21);
     }
 }

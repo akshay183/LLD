@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Objects;
 
@@ -20,7 +21,13 @@ public class IphoneStocks implements Observable {
     @Override
     public void remove(Observer observer) {
 
-        observers.forEach(ob -> {if(Objects.equals(ob, observer)) {observers.remove(ob);}});
+        Iterator<Observer> iterator = observers.iterator();
+        while (iterator.hasNext()) {
+            Observer ob = iterator.next();
+            if (Objects.equals(ob, observer)) {
+                iterator.remove();
+            }
+        }
     }
 
     @Override
