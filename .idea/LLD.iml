@@ -7,6 +7,13 @@
       <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Observer Design Pattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Singleton Design Pattern" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LLD problems" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Builder Design Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Decorator Design Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Decorator Design Pattern/PizzaExample" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Factory Design Pattern" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Factory Design Pattern/account" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Factory Design Pattern/client" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns/Factory Design Pattern/factory" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

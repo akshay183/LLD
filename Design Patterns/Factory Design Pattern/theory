@@ -1,0 +1,14 @@
+https://prasadct.medium.com/factory-method-design-patternfactory-method-design-pattern-with-real-world-example-4ee909a24ab6
+
+
+What Factory method pattern does?
+It allows us to create objects by specifying their common interface at run time without imposing their
+concrete class creation logic.
+
+When to use the Factory method pattern?
+1.There should be a set of classes which implement a common interface
+2.You don’t know which object to create ( You know which object to create only at run time)
+3.Object initialization is somewhat expensive(Have to do some operations in order to create an object)
+
+Factory method act as an actual factory. It creates our products which we request
+but we don’t need to aware of how they are created.
